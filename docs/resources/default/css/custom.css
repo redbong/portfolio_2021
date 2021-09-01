@@ -36,9 +36,17 @@ body.action{overflow:hidden;height: 100%;}
   padding-left:200px;}
 
 #content .section-01{
-  background-image:url(../images/section_01_bak.png);
+  background-image:url(../images/se02_bak2.png);
+  background-size: 1026px;
   background-repeat: no-repeat;
-  background-position: 0 -110px;}
+  background-position: -40px -200px;}
+  
+  .puzzle2{
+    position: absolute;
+    width: 267px;
+    bottom: 70px;
+    left: 620px;
+  }
 
 #content .section-01 .con-box{
   padding-right:82px;
@@ -74,17 +82,18 @@ body.action{overflow:hidden;height: 100%;}
 #content .section-01.active .con-box p{
   opacity:1;
   transform: translateZ(0);
-  transition:0.5s;transition-delay: 0.3s;}
+  transition:0.5s;transition-delay: 0.5s;}
 
 #content .section-01.active .con-box .name{
   opacity:1;
   transform: translateZ(0);
-  transition:0.5s;transition-delay: 0.7s;}
+  transition:0.5s;transition-delay: 1s;}
 
   .aboutme{
     position: absolute;
-    top:206px;
-    left:598px;
+    top:226px;
+    left:670px;
+    width: 873px;
   }
 
 #content .section-02{
@@ -234,7 +243,81 @@ body.action{overflow:hidden;height: 100%;}
     color:#3c3c4b;
     background-image: url(../images/se02_tit_i.png);
     background-repeat: no-repeat;
-    background-position:top right;}
+    background-position:top right;
+  }
+    .se03_left{
+      position: absolute;
+      width:87px;
+      left:57px;
+      
+    }
+    .se03_right{
+      position: absolute;
+      width: 87px;
+      right: 55px;
+
+    }
+    .portfolio-box{
+      position: relative;
+      display: flex;
+      
+    }
+    .portfolio-box1{
+      position: absolute;
+      display: flex;
+      width: 407px;
+      height: 449px;
+      left:200px;
+      top:-250px;
+      justify-content: space-around;
+      border:5px solid #3c3c4b;
+    }
+    .portfolio-box1>img{
+      margin-left:-10;
+      width: 380px;
+    }
+
+    .portfolio-box2{
+      position: absolute;
+      display: flex;
+      width: 407px;
+      height: 449px;
+      left:650px;
+      top:-250px;
+      border:5px solid #3c3c4b;
+      }
+
+      .portfolio-box3{
+      position: absolute;
+      display: flex;
+      width: 407px;
+      height: 449px;
+      left:1100px;
+      top:-250px;
+      border:5px solid #3c3c4b;
+      }
+      .portfolio-box1-1{
+        position: absolute;
+        width: 402px;
+        left:198px;
+        top:226px;
+        }
+        .portfolio-box1-1>p{
+          display: flex;
+          position: relative;
+          font-size: 20px;
+          font-weight: bold;
+          top:-35px;
+          left:20px;
+          color:white;
+        }
+        .Team{
+          position: relative;
+          font-size:14px;
+          padding-left:350px;
+          color: black;
+        }
+
   
   #content .section-04 .h-box{
     position: absolute;
@@ -299,7 +382,7 @@ body.action{overflow:hidden;height: 100%;}
          .call{
            position:absolute;
            left:1280px;
-           bottom: 470px;
+           bottom: 478px;
            font-size: 14px;
            font-weight: 400;
            padding: 10px;
@@ -328,7 +411,7 @@ body.action{overflow:hidden;height: 100%;}
           border-radius: 5px;
           border:2px solid #3c3c4b;
           left:895px;
-          bottom: 112px;
+          bottom: 118px;
         }
         .send{
           display:flex;
