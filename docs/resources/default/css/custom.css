@@ -81,10 +81,16 @@ body.action{overflow:hidden;height: 100%;}
   transform: translateZ(0);
   transition:0.5s;transition-delay: 0.7s;}
 
+  .aboutme{
+    position: absolute;
+    top:206px;
+    left:598px;
+  }
+
 #content .section-02{
   background-image:url(../images/se02_bak.png);
   background-repeat: no-repeat;
-  background-position:bottom -83px right;}
+  background-position:bottom -103px right;}
 
   #content .section-02{
 
@@ -194,6 +200,7 @@ body.action{overflow:hidden;height: 100%;}
 #content .section-02 .con-box .con-l .notice-box .con-con .skill-list > li:nth-child(5),
 #content .section-02 .con-box .con-l .notice-box .con-con .skill-list > li:nth-child(6){
   margin-bottom:0;}
+
 #content .section-02 .con-box .con-l .notice-box .con-con .skill-list > li > figure{
   margin-bottom:11px;}
 #content .section-02 .con-box .con-l .notice-box .con-con .skill-list > li > p{
@@ -261,14 +268,88 @@ body.action{overflow:hidden;height: 100%;}
     .try>p{
       font-size: 48px;
       color:#3c3c4b;
-      font-weight: bold;
+      font-weight: 700;
       margin-top: -300px;
       margin-left: 80px;
-      
-    }
-  
-
-  
+      }
+      .effort{
+        font-size: 24px;
+        color:#252525;
+        padding: 24px;
+        padding-left: 93px;
+        font-weight: 400;
+        }
+        .se04-puzzle{
+          position:absolute;
+          left:-50px;
+        }
+       .se04-puzzle2{
+         position: absolute;
+         left:1485px;
+         top:180px;
+         width:254.95px;
+       }
+       .contact{
+         position:absolute;
+         left:1380px;
+         bottom: 521px;
+         font-size: 40px;
+         font-weight: 700;
+         }
+         .call{
+           position:absolute;
+           left:1280px;
+           bottom: 470px;
+           font-size: 14px;
+           font-weight: 400;
+           padding: 10px;
+           letter-spacing: 0.5;
+         }
+        .se04-iconbox{
+          position:absolute;
+          display: block;
+          left:796px;
+          bottom: 240px;
+          padding:32px;
+          
+        }
+        .email{
+          position: absolute;
+          width: 707px;
+          height: 65px;
+          border-radius: 5px;
+          border:2px solid #3c3c4b;
+          left:895px;
+        }
+        .memo{
+          position:absolute;
+          width: 707px;
+          height: 276px;
+          border-radius: 5px;
+          border:2px solid #3c3c4b;
+          left:895px;
+          bottom: 112px;
+        }
+        .send{
+          display:flex;
+          position: absolute;
+          height:46px;
+          width: 96px;
+          left:1494px;
+          bottom: 55px;
+          border-radius: 10px;
+          background-color: #3c3c4b;
+        }
+        .send>p{
+          position: relative;
+          display: flex;
+          height: 100%;
+          color:white;
+          align-items: center;
+          left:20%;
+          font-size: 24px;
+          font-weight: 400;
+        }
 
 
 
