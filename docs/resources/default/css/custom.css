@@ -36,16 +36,27 @@ body.action{overflow:hidden;height: 100%;}
   padding-left:200px;}
 
 #content .section-01{
-  background-image:url(../images/se02_bak2.png);
+  background-image:url(../images/se01_bak2.png);
   background-size: 1026px;
   background-repeat: no-repeat;
-  background-position: -40px -200px;}
+  background-position: -40px -200px;
+  min-height:100vh;
+  position:relative;
+}
+  
   
   .puzzle2{
     position: absolute;
-    width: 267px;
-    bottom: 70px;
-    left: 620px;
+    width: 256px;
+    top:calc(555px + 100px);
+    left:calc(521px + 100px);
+    transition:top .3s, left .3s, transform .3s;
+    transform:rotate(calc(52deg + -145deg));
+  }
+  #content .section-01:hover .puzzle2 {
+    top:555px;
+    left:521px;
+    transform:rotate(calc(52deg));
   }
 
 #content .section-01 .con-box{
@@ -403,6 +414,8 @@ body.action{overflow:hidden;height: 100%;}
           border-radius: 5px;
           border:2px solid #3c3c4b;
           left:895px;
+          font-size: 24px;
+          color:#A0A0A0;
         }
         .memo{
           position:absolute;
@@ -412,6 +425,12 @@ body.action{overflow:hidden;height: 100%;}
           border:2px solid #3c3c4b;
           left:895px;
           bottom: 118px;
+          font-size: 24px;
+          
+        }
+        ::placeholder {
+          color:#A0A0A0;
+          
         }
         .send{
           display:flex;
