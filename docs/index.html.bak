@@ -181,7 +181,7 @@
 										<ul class="list">
 											<li>
 												<span>NAME</span>
-												<p>SUBWAY</p>
+												<p>장애인</p>
 											</li>
 											<li>
 												<span>DATE</span>
@@ -194,32 +194,7 @@
 
 								<div class="swiper-slide item-con">
 									<div class="img-con">
-										 <img src="resources/default/images/se03_waterpick.png">
-									</div>
-									<div class="info-con">
-										
-										<div class="con-h">
-											<span>RENEWAL</span>
-											<div class="se03-team">website mock-up</div>
-										</div>
-										
-										<ul class="list">
-											<li>
-												<span>NAME</span>
-												<p>WATERPICK</p>
-											</li>
-											<li>
-												<span>DATE</span>
-												<p>2021.07.19</p>
-											</li>
-										</ul>
-
-									</div>
-								</div>
-
-								<div class="swiper-slide item-con">
-									<div class="img-con">
-										 <img src="resources/default/images/se03_cafeon.png">
+										 <img src="resources/default/images/se03_subway.png">
 									</div>
 									<div class="info-con">
 										
@@ -231,11 +206,36 @@
 										<ul class="list">
 											<li>
 												<span>NAME</span>
-												<p>CAFEON</p>
+												<p>장애인</p>
 											</li>
 											<li>
 												<span>DATE</span>
-												<p>2021.07.25</p>
+												<p>2021.06.19</p>
+											</li>
+										</ul>
+
+									</div>
+								</div>
+
+								<div class="swiper-slide item-con">
+									<div class="img-con">
+										 <img src="resources/default/images/se03_subway.png">
+									</div>
+									<div class="info-con">
+										
+										<div class="con-h">
+											<span>RENEWAL</span>
+											<div class="se03-team">Team-PROJECT</div>
+										</div>
+										
+										<ul class="list">
+											<li>
+												<span>NAME</span>
+												<p>장애인</p>
+											</li>
+											<li>
+												<span>DATE</span>
+												<p>2021.06.19</p>
 											</li>
 										</ul>
 
@@ -249,11 +249,11 @@
 						</div>
 
 						<div class="slide-btn-wrap">
-							<div class="slide-btn swiper-btn-prev">
+							<div class="slide-btn swiper-button-prev">
 								<img src="resources/default/images/se03_left.png" alt="왼쪽"/>
 							</div>
 
-							<div class="slide-btn swiper-btn-next">
+							<div class="slide-btn swiper-button-next">
 								<img src="resources/default/images/se03_right.png" alt="오른쪽"/>
 							</div>
 						</div>
