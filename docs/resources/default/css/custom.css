@@ -343,6 +343,7 @@ body.action {
  .nextbox{
    position:absolute;
    top:589px;
+   right: 1250px;
    width:183.48px;
    height:55.67px;
    border:1px solid #3c3c4b;
@@ -357,7 +358,7 @@ body.action {
        .viewbox{
         position:absolute;
         top:589px;
-        left:390px;
+        left:370px;
         width:183.48px;
         height:55.67px;
         border:1px solid #3c3c4b;
@@ -368,7 +369,6 @@ body.action {
            color:#000000;
            text-align: center;
            top:16px;
-           font-weight: bold;
            color: white;
             }
        
@@ -673,6 +673,7 @@ body.action {
 .section-03 .portfolio-wrap .portfolio-slide .item-con .img-con {
   margin-bottom: 20px;
   border: 3px solid #3c3c4b;
+  position:relative;
 }
 
 .section-03 .portfolio-wrap .portfolio-slide .item-con .con-h {
