@@ -10,34 +10,26 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 
 
-    <!-- 기본 세팅 -->
-    <link rel="stylesheet" type="text/css" href="resources/default/css/common.css" />
-    <link rel="stylesheet" type="text/css" href="resources/default/css/custom.css" />
-
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.1.2/fullpage.min.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.1.2/fullpage.css">
 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/6.8.4/swiper-bundle.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/6.8.4/swiper-bundle.min.js"></script>
 
-
-
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.1/css/swiper.min.css">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.1/js/swiper.min.js"></script>
-
-
-
-    <script src="resources/default/js/main.js"></script>
-
-
-
+    <link rel="stylesheet" type="text/css" href="resources/default/css/common.css" />
+    <link rel="stylesheet" type="text/css" href="resources/default/css/custom.css" />
+    
+    <script src="resources/default/js/main.js" defer></script>
 
 </head>
 
 <body>
+    <!-- sectio1 시작 -->
     <div id="wrap">
 
         <header id="header">
-            <h1 id="logo"><a href="#"><img src="resources/default/images/logo.png" alt="LCU" /></a></h1>
+            <h1 id="logo"><a href="#section-01"><img src="resources/default/images/logo.png" alt="LCU" /></a></h1>
 
             <nav>
                 <ul class="menu">
@@ -69,7 +61,7 @@
                     </div>
 
                     <div class="icon">
-                        <img src="resources/default/images/section_01_icon.png" alt="icon" />
+                        <img src="resources/default/images/Group 1219.png" alt="icon" />
                     </div>
                     <div class="puzzle2">
                         <img src="resources/default/images/se01_tit_i.png">
@@ -78,6 +70,7 @@
 
 
                 </section>
+                <!-- sectio2 시작 -->
                 <section class="section section-02" data-anchor="section-02">
                     <div class="aboutme">
                         <img src="https://i.postimg.cc/TPhmqzV3/aboutme.png">
@@ -170,7 +163,7 @@
                     </div>
                 </section>
 
-
+                <!-- sectio3 시작 -->
                 <section class="section section-03" data-anchor="section-03">
                     <div class="h-box">
                         <p>PORTFOLIO</p>
@@ -178,116 +171,663 @@
                     </div>
 
 
+                    <ul class="tab-tit-list">
+                        <li><a href="#tab01" class="active">RENEWAL</a></li>
+                        <li><a href="#tab02">POSTER</a></li>
+                        <li><a href="#tab03">MOCKUP</a></li>
+                        <li><a href="#tab04">MOBILE</a></li>
+                    </ul>
 
-                    <div class="portfolio-wrap">
 
-                        <div id="portfolio-slide" class="portfolio-slide swiper-container">
+                    <div class="tab-content">
+                        <div id="tab01" class="tab-con active">
+                            <div class="portfolio-wrap">
+
+                                <div id="portfolio-slide-1" class="portfolio-slide swiper-container">
 
 
-                            <div class="swiper-wrapper">
+                                    <div class="swiper-wrapper">
 
-                                <div class="swiper-slide item-con">
-                                    <div class="img-con">
-                                        <img src="resources/default/images/se03_subway.png">
-                                    </div>
-                                    <div class="info-con">
+                                        <div class="swiper-slide item-con">
+                                            <div class="con-box">
+                                                <div class="img-con">
+                                                    <img src="resources/default/images/se03_subway.png">
+                                                </div>
+                                                <div class="info-con">
 
-                                        <div class="con-h">
-                                            <span>RENEWAL</span>
-                                            <div class="se03-team">Team-PROJECT</div>
+                                                    <div class="con-h">
+                                                        <span>RENEWAL</span>
+                                                        <div class="se03-team">Team-PROJECT</div>
+                                                    </div>
+
+                                                    <ul class="list">
+                                                        <li>
+                                                            <span>NAME</span>
+                                                            <p>SUBWAY</p>
+
+                                                        </li>
+                                                        <li>
+                                                            <span>DATE</span>
+                                                            <p>2021.06.19</p>
+                                                        </li>
+                                                    </ul>
+
+                                                </div>
+
+                                                <div class="mask">
+                                                    <div class="mask-con">
+                                                        <strong>SUBWAY RENEWAL</strong>
+                                                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                                                            Commodi voluptatibus ut provident impedit aut expedita
+                                                            soluta unde, nulla dolor excepturi aliquam voluptatem quidem
+                                                            porro, neque doloribus eos nostrum? Maiores, reiciendis?</p>
+                                                    </div>
+                                                </div>
+
+                                            </div>
+                                            <ul class="btn-list">
+                                                <li><a href="#" class="btn li01">NEXT</a></li>
+                                                <li><a href="#" class="btn li02">VIEW DESIGN</a></li>
+                                            </ul>
                                         </div>
 
-                                        <ul class="list">
-                                            <li>
-                                                <span>NAME</span>
-                                                <p>SUBWAY</p>
-                                                
-                                            </li>
-                                            <li>
-                                                <span>DATE</span>
-                                                <p>2021.06.19</p>
-                                            </li>
-                                        </ul>
-                                        
+
+                                        <div class="swiper-slide item-con">
+                                            <div class="con-box">
+                                                <div class="img-con">
+                                                    <img src="resources/default/images/se03_waterpick.png">
+                                                </div>
+                                                <div class="info-con">
+
+                                                    <div class="con-h">
+                                                        <span>RENEWAL</span>
+                                                        <div class="se03-team">website mock-up</div>
+                                                    </div>
+
+                                                    <ul class="list">
+                                                        <li>
+                                                            <span>NAME</span>
+                                                            <p>WATERPICK</p>
+
+                                                        </li>
+                                                        <li>
+                                                            <span>DATE</span>
+                                                            <p>2021.07.19</p>
+                                                        </li>
+                                                    </ul>
+
+                                                </div>
+
+                                                <div class="mask">
+                                                    <div class="mask-con">
+                                                        <strong>WATERPICK RENEWAL</strong>
+                                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                                            Error provident doloremque quae velit reprehenderit voluptas
+                                                            vitae dolore perspiciatis, ullam asperiores soluta impedit
+                                                            dolores accusantium sequi quo consectetur sed aliquam
+                                                            adipisci.</p>
+                                                    </div>
+                                                </div>
+
+                                            </div>
+                                            <ul class="btn-list">
+                                                <li><a href="#" class="btn li01">NEXT</a></li>
+                                                <li><a href="#" class="btn li02">VIEW DESIGN</a></li>
+                                            </ul>
+                                        </div>
+
+                                        <div class="swiper-slide item-con">
+                                            <div class="con-box">
+                                                <div class="img-con">
+                                                    <img src="resources/default/images/se03_cafeon.png">
+                                                </div>
+                                                <div class="info-con">
+
+                                                    <div class="con-h">
+                                                        <span>RENEWAL</span>
+                                                        <div class="se03-team">Team-PROJECT</div>
+                                                    </div>
+
+                                                    <ul class="list">
+                                                        <li>
+                                                            <span>NAME</span>
+                                                            <p>CAFEON</p>
+
+                                                        </li>
+                                                        <li>
+                                                            <span>DATE</span>
+                                                            <p>2021.07.25</p>
+                                                        </li>
+                                                    </ul>
+
+                                                </div>
+
+                                                <div class="mask">
+                                                    <div class="mask-con">
+                                                        <strong>CAFEON RENEWAL</strong>
+                                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                                            Sequi commodi aspernatur aliquam. Dignissimos id laboriosam,
+                                                            totam ex atque dicta assumenda nesciunt repellat porro, quos
+                                                            aut, a incidunt dolor? Commodi, totam?</p>
+                                                    </div>
+                                                </div>
+
+                                            </div>
+                                            <ul class="btn-list">
+                                                <li><a href="#" class="btn li01">NEXT</a></li>
+                                                <li><a href="#" class="btn li02">VIEW DESIGN</a></li>
+                                            </ul>
+                                        </div>
 
                                     </div>
-                                    
+
+
+
+
                                 </div>
-                                
 
-                                <div class="swiper-slide item-con">
-                                    <div class="img-con">
-                                        <img src="resources/default/images/se03_waterpick.png">
+
+
+
+                                <div class="slide-btn-wrap">
+                                    <div class="slide-btn swiper-btn-prev">
+                                        <img src="resources/default/images/se03_left.png" alt="왼쪽" />
                                     </div>
-                                    <div class="info-con">
 
-                                        <div class="con-h">
-                                            <span>RENEWAL</span>
-                                            <div class="se03-team">website mock-up</div>
-                                        </div>
-
-                                        <ul class="list">
-                                            <li>
-                                                <span>NAME</span>
-                                                <p>WATERPICK</p>
-                                            </li>
-                                            <li>
-                                                <span>DATE</span>
-                                                <p>2021.07.19</p>
-                                            </li>
-                                        </ul>
-
-                                    </div>
-                                </div>
-
-                                <div class="swiper-slide item-con">
-                                    <div class="img-con">
-                                        <img src="resources/default/images/se03_cafeon.png">
-                                    </div>
-                                    <div class="info-con">
-
-                                        <div class="con-h">
-                                            <span>RENEWAL</span>
-                                            <div class="se03-team">Team-PROJECT</div>
-                                        </div>
-
-                                        <ul class="list">
-                                            <li>
-                                                <span>NAME</span>
-                                                <p>CAFEON</p>
-                                            </li>
-                                            <li>
-                                                <span>DATE</span>
-                                                <p>2021.07.25</p>
-                                            </li>
-                                        </ul>
-
+                                    <div class="slide-btn swiper-btn-next">
+                                        <img src="resources/default/images/se03_right.png" alt="오른쪽" />
                                     </div>
                                 </div>
                             </div>
-
-
-                             
-
                         </div>
-                        <div class="nextbox">
-                            <p>NEXT</p>
-                        </div>
-                        <div class="viewbox">
-                            <p>VIEW DESIGN</p>
-                        </div>
-                        
+                        <div id="tab02" class="tab-con">
+                            <div class="portfolio-wrap">
 
-                        <div class="slide-btn-wrap">
-                            <div class="slide-btn swiper-btn-prev">
-                                <img src="resources/default/images/se03_left.png" alt="왼쪽" />
+                                <div id="portfolio-slide-2" class="portfolio-slide swiper-container">
+
+
+                                    <div class="swiper-wrapper">
+
+                                        <div class="swiper-slide item-con">
+                                            <div class="con-box">
+                                                <div class="img-con">
+                                                    <img src="resources/default/images/se03_festival.png">
+                                                </div>
+                                                <div class="info-con">
+
+                                                    <div class="con-h">
+                                                        <span>POSTER</span>
+                                                        <div class="se03-team">Personal-PROJECT</div>
+                                                    </div>
+
+                                                    <ul class="list">
+                                                        <li>
+                                                            <span>NAME</span>
+                                                            <p>FESTIVAL</p>
+
+                                                        </li>
+                                                        <li>
+                                                            <span>DATE</span>
+                                                            <p>2021.06.19</p>
+                                                        </li>
+                                                    </ul>
+
+                                                </div>
+
+                                                <div class="mask">
+                                                    <div class="mask-con">
+                                                        <strong>FESTIVAL POSTER</strong>
+                                                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                                                            Voluptate vero cupiditate nobis natus reiciendis. Doloremque
+                                                            veniam asperiores praesentium porro tenetur fuga hic
+                                                            nostrum, explicabo delectus dolorem in eum libero nesciunt.
+                                                        </p>
+                                                    </div>
+                                                </div>
+
+                                            </div>
+                                            <ul class="btn-list">
+                                                <li><a href="#" class="btn li01">NEXT</a></li>
+                                                <li><a href="#" class="btn li02">VIEW DESIGN</a></li>
+                                            </ul>
+                                        </div>
+
+
+                                        <div class="swiper-slide item-con">
+                                            <div class="con-box">
+                                                <div class="img-con">
+                                                    <img src="resources/default/images/se03_festival2.png">
+                                                </div>
+                                                <div class="info-con">
+
+                                                    <div class="con-h">
+                                                        <span>POSTER</span>
+                                                        <div class="se03-team">Personal-PROJECT</div>
+                                                    </div>
+
+                                                    <ul class="list">
+                                                        <li>
+                                                            <span>NAME</span>
+                                                            <p>FESTIVAL</p>
+
+                                                        </li>
+                                                        <li>
+                                                            <span>DATE</span>
+                                                            <p>2021.06.19</p>
+                                                        </li>
+                                                    </ul>
+
+                                                </div>
+
+                                                <div class="mask">
+                                                    <div class="mask-con">
+                                                        <strong>FESTIVAL POSTER</strong>
+                                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic
+                                                            assumenda quos sunt ipsum veniam odit fugiat consequatur nam
+                                                            suscipit! Ex id modi maiores hic amet quasi deserunt alias
+                                                            enim ullam?</p>
+                                                    </div>
+                                                </div>
+
+                                            </div>
+                                            <ul class="btn-list">
+                                                <li><a href="#" class="btn li01">NEXT</a></li>
+                                                <li><a href="#" class="btn li02">VIEW DESIGN</a></li>
+                                            </ul>
+                                        </div>
+
+                                        <div class="swiper-slide item-con">
+                                            <div class="con-box">
+                                                <div class="img-con">
+                                                    <img src="resources/default/images/se03_festival3.png">
+                                                </div>
+                                                <div class="info-con">
+
+                                                    <div class="con-h">
+                                                        <span>POSTER</span>
+                                                        <div class="se03-team">Personal-PROJECT</div>
+                                                    </div>
+
+                                                    <ul class="list">
+                                                        <li>
+                                                            <span>NAME</span>
+                                                            <p>FESTIVAL</p>
+
+                                                        </li>
+                                                        <li>
+                                                            <span>DATE</span>
+                                                            <p>2021.06.19</p>
+                                                        </li>
+                                                    </ul>
+
+                                                </div>
+
+                                                <div class="mask">
+                                                    <div class="mask-con">
+                                                        <strong>FESTIVAL POSTER</strong>
+                                                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                                                            Facilis ipsa ea minus incidunt saepe, quas adipisci minima
+                                                            quos rem perspiciatis dolore! Modi ipsum aliquid quas
+                                                            expedita vitae, numquam illo perspiciatis.</p>
+                                                    </div>
+                                                </div>
+
+                                            </div>
+                                            <ul class="btn-list">
+                                                <li><a href="#" class="btn li01">NEXT</a></li>
+                                                <li><a href="#" class="btn li02">VIEW DESIGN</a></li>
+                                            </ul>
+                                        </div>
+
+                                    </div>
+
+
+
+
+
+                                </div>
+
+
+
+
+                                <div class="slide-btn-wrap">
+                                    <div class="slide-btn swiper-btn-prev">
+                                        <img src="resources/default/images/se03_left.png" alt="왼쪽" />
+                                    </div>
+
+                                    <div class="slide-btn swiper-btn-next">
+                                        <img src="resources/default/images/se03_right.png" alt="오른쪽" />
+                                    </div>
+                                </div>
                             </div>
+                        </div>
+                        <div id="tab03" class="tab-con">
+                            <div class="portfolio-wrap">
 
-                            <div class="slide-btn swiper-btn-next">
-                                <img src="resources/default/images/se03_right.png" alt="오른쪽" />
+                                <div id="portfolio-slide-3" class="portfolio-slide swiper-container">
+
+
+                                    <div class="swiper-wrapper">
+
+                                        <div class="swiper-slide item-con">
+                                            <div class="con-box">
+                                                <div class="img-con">
+                                                    <img src="resources/default/images/se03_outback.png">
+                                                </div>
+                                                <div class="info-con">
+
+                                                    <div class="con-h">
+                                                        <span>MOCKUP</span>
+                                                        <div class="se03-team">website mock-up</div>
+                                                    </div>
+
+                                                    <ul class="list">
+                                                        <li>
+                                                            <span>NAME</span>
+                                                            <p>OUTBACK</p>
+
+                                                        </li>
+                                                        <li>
+                                                            <span>DATE</span>
+                                                            <p>2021.06.19</p>
+                                                        </li>
+                                                    </ul>
+
+                                                </div>
+
+                                                <div class="mask">
+                                                    <div class="mask-con">
+                                                        <strong>OUTBACK MARKUP</strong>
+                                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                                            Totam quia rerum placeat ab pariatur molestiae impedit odit
+                                                            modi provident quis. Impedit incidunt veritatis sit
+                                                            assumenda laboriosam. Facilis laborum velit nisi.</p>
+                                                    </div>
+                                                </div>
+
+                                            </div>
+                                            <ul class="btn-list">
+                                                <li><a href="#" class="btn li01">NEXT</a></li>
+                                                <li><a href="#" class="btn li02">VIEW DESIGN</a></li>
+                                            </ul>
+                                        </div>
+
+
+                                        <div class="swiper-slide item-con">
+                                            <div class="con-box">
+                                                <div class="img-con">
+                                                    <img src="resources/default/images/se03_waterpick.png">
+                                                </div>
+                                                <div class="info-con">
+
+                                                    <div class="con-h">
+                                                        <span>MOCKUP</span>
+                                                        <div class="se03-team">website mock-up</div>
+                                                    </div>
+
+                                                    <ul class="list">
+                                                        <li>
+                                                            <span>NAME</span>
+                                                            <p>WATERPICK</p>
+
+                                                        </li>
+                                                        <li>
+                                                            <span>DATE</span>
+                                                            <p>2021.06.19</p>
+                                                        </li>
+                                                    </ul>
+
+                                                </div>
+
+                                                <div class="mask">
+                                                    <div class="mask-con">
+                                                        <strong>WATERPICK MARKUP</strong>
+                                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                                            Ullam neque excepturi repellendus cum eligendi? Odio quaerat
+                                                            vitae asperiores architecto molestiae velit libero sint,
+                                                            facilis perferendis doloremque illum tempore voluptas
+                                                            veritatis.</p>
+                                                    </div>
+                                                </div>
+
+                                            </div>
+                                            <ul class="btn-list">
+                                                <li><a href="#" class="btn li01">NEXT</a></li>
+                                                <li><a href="#" class="btn li02">VIEW DESIGN</a></li>
+                                            </ul>
+                                        </div>
+
+                                        <div class="swiper-slide item-con">
+                                            <div class="con-box">
+                                                <div class="img-con">
+                                                    <img src="resources/default/images/se03_8meen.png">
+                                                </div>
+                                                <div class="info-con">
+
+                                                    <div class="con-h">
+                                                        <span>MOCKUP</span>
+                                                        <div class="se03-team">website mock-up</div>
+                                                    </div>
+
+                                                    <ul class="list">
+                                                        <li>
+                                                            <span>NAME</span>
+                                                            <p>PALMIEN</p>
+
+                                                        </li>
+                                                        <li>
+                                                            <span>DATE</span>
+                                                            <p>2021.06.19</p>
+                                                        </li>
+                                                    </ul>
+
+                                                </div>
+
+                                                <div class="mask">
+                                                    <div class="mask-con">
+                                                        <strong>PALMIEN MARKUP</strong>
+                                                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                                                            Nisi consequuntur dolorum magni. Fugiat eos autem dolorum
+                                                            sit in. Repudiandae voluptates enim, veritatis autem
+                                                            asperiores recusandae. Nihil, obcaecati. Cumque, corrupti
+                                                            corporis.</p>
+                                                    </div>
+                                                </div>
+
+                                            </div>
+                                            <ul class="btn-list">
+                                                <li><a href="#" class="btn li01">NEXT</a></li>
+                                                <li><a href="#" class="btn li02">VIEW DESIGN</a></li>
+                                            </ul>
+                                        </div>
+
+                                    </div>
+
+
+
+
+                                </div>
+
+
+
+
+
+                                <div class="slide-btn-wrap">
+                                    <div class="slide-btn swiper-btn-prev">
+                                        <img src="resources/default/images/se03_left.png" alt="왼쪽" />
+                                    </div>
+
+                                    <div class="slide-btn swiper-btn-next">
+                                        <img src="resources/default/images/se03_right.png" alt="오른쪽" />
+                                    </div>
+                                </div>
                             </div>
                         </div>
+                        <div id="tab04" class="tab-con">
+                            <div class="portfolio-wrap">
+
+                                <div id="portfolio-slide-4" class="portfolio-slide swiper-container">
+
+
+                                    <div class="swiper-wrapper">
+
+                                        <div class="swiper-slide item-con">
+                                            <div class="con-box">
+                                                <div class="img-con">
+                                                    <img src="resources/default/images/se03_daily1.png">
+                                                </div>
+                                                <div class="info-con">
+
+                                                    <div class="con-h">
+                                                        <span>Mobile</span>
+                                                        <div class="se03-team">Team-PROJECT</div>
+                                                    </div>
+
+                                                    <ul class="list">
+                                                        <li>
+                                                            <span>NAME</span>
+                                                            <p>Daily Routine</p>
+
+                                                        </li>
+                                                        <li>
+                                                            <span>DATE</span>
+                                                            <p>2021.07.12</p>
+                                                        </li>
+                                                    </ul>
+
+                                                </div>
+
+                                                <div class="mask">
+                                                    <div class="mask-con">
+                                                        <strong>Mobile Daily Routine</strong>
+                                                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                                                            Nostrum voluptas accusamus quas eius ullam! Id vitae tenetur
+                                                            quae blanditiis! Dolor exercitationem ipsum expedita minima,
+                                                            consequuntur obcaecati autem adipisci. Error, perspiciatis.
+                                                        </p>
+                                                    </div>
+                                                </div>
+
+                                            </div>
+                                            <ul class="btn-list">
+                                                <li><a href="#" class="btn li01">NEXT</a></li>
+                                                <li><a href="#" class="btn li02">VIEW DESIGN</a></li>
+                                            </ul>
+                                        </div>
+
+
+                                        <div class="swiper-slide item-con">
+                                            <div class="con-box">
+                                                <div class="img-con">
+                                                    <img src="resources/default/images/se03_daily2.png">
+                                                </div>
+                                                <div class="info-con">
+
+                                                    <div class="con-h">
+                                                        <span>Mobile</span>
+                                                        <div class="se03-team">Personal-PROJECT</div>
+                                                    </div>
+
+                                                    <ul class="list">
+                                                        <li>
+                                                            <span>NAME</span>
+                                                            <p>Daily Routine</p>
+
+                                                        </li>
+                                                        <li>
+                                                            <span>DATE</span>
+                                                            <p>2021.07.20</p>
+                                                        </li>
+                                                    </ul>
+
+                                                </div>
+
+                                                <div class="mask">
+                                                    <div class="mask-con">
+                                                        <strong>Mobile Daily Routine</strong>
+                                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                                            Blanditiis reprehenderit, est itaque repellat at maiores
+                                                            nisi, consectetur rerum illum eveniet, nostrum natus totam
+                                                            ad. Aliquid excepturi omnis quas placeat sint?</p>
+                                                    </div>
+                                                </div>
+
+                                            </div>
+                                            <ul class="btn-list">
+                                                <li><a href="#" class="btn li01">NEXT</a></li>
+                                                <li><a href="#" class="btn li02">VIEW DESIGN</a></li>
+                                            </ul>
+                                        </div>
+
+                                        <div class="swiper-slide item-con">
+                                            <div class="con-box">
+                                                <div class="img-con">
+                                                    <img src="resources/default/images/se03_subway.png">
+                                                </div>
+                                                <div class="info-con">
+
+                                                    <div class="con-h">
+                                                        <span>Mobile</span>
+                                                        <div class="se03-team">Team-PROJECT</div>
+                                                    </div>
+
+                                                    <ul class="list">
+                                                        <li>
+                                                            <span>NAME</span>
+                                                            <p>SUBWAY</p>
+
+                                                        </li>
+                                                        <li>
+                                                            <span>DATE</span>
+                                                            <p>2021.06.19</p>
+                                                        </li>
+                                                    </ul>
+
+                                                </div>
+
+                                                <div class="mask">
+                                                    <div class="mask-con">
+                                                        <strong>?</strong>
+                                                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                                                            Quos doloremque officia eligendi doloribus consequatur
+                                                            aliquid nobis veritatis reiciendis perferendis! Rerum nemo
+                                                            perferendis, natus fuga esse porro ullam dolore consequatur
+                                                            ea?</p>
+                                                    </div>
+                                                </div>
+
+                                            </div>
+                                            <ul class="btn-list">
+                                                <li><a href="#" class="btn li01">NEXT</a></li>
+                                                <li><a href="#" class="btn li02">VIEW DESIGN</a></li>
+                                            </ul>
+                                        </div>
+
+                                    </div>
+
+
+
+
+                                </div>
+
+
+
+
+                                <div class="slide-btn-wrap">
+                                    <div class="slide-btn swiper-btn-prev">
+                                        <img src="resources/default/images/se03_left.png" alt="왼쪽" />
+                                    </div>
+
+                                    <div class="slide-btn swiper-btn-next">
+                                        <img src="resources/default/images/se03_right.png" alt="오른쪽" />
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
                     </div>
+
+
 
 
 
@@ -321,7 +861,7 @@
                     </div>
 					-->
                 </section>
-
+                <!-- sectio4 시작 -->
                 <section class="section section-04" data-anchor="section-04">
                     <div class="h-box">
                         <p>EPILOGUE</p>
@@ -353,16 +893,24 @@
                         <p>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp빠른 시일 내에 확인하고 답장드리겠습니다.</p>
                     </div>
                     <div class="se04-iconbox">
-                        <img src="resources/default/images/se04_kakao.png"><br>
-                        <img src="resources/default/images/se04_tstory.png"><br>
-                        <img src="resources/default/images/se04_blog.png"><br>
-                        <img src="resources/default/images/se04_git.png">
+                        <a href='#' target='_blank'><img src="resources/default/images/se04_kakao.png"><br> </a>
+                        <a href='https://redbong.tistory.com/' target='_blank'><img
+                                src="resources/default/images/se04_tstory.png"><br></a>
+                        <a href='https://wiken.io/b/350' target='_blank'><img
+                                src="resources/default/images/se04_blog.png"><br></a>
+                        <a href='https://github.com/redbong/portfolio_2021' target='_blank'><img
+                                src="resources/default/images/se04_git.png"></a>
+
+
                     </div>
-                    <input class="email" type="text" placeholder="이메일을 적어주세요.">
-                    <textarea class="memo" rows="10" placeholder="내용을 적어주세요."></textarea>
-                    <div class="send">
-                        <p>SEND</p>
-                    </div>
+                    <form target="_blank" action="https://formspree.io/f/xleaongn"
+                        onsubmit="sendEmailForm(this); return false;" method="POST">
+                        <input class="email" type="email" name="_replyto" placeholder="이메일을 적어주세요.">
+                        <textarea class="memo" name="message" rows="10" placeholder="내용을 적어주세요."></textarea>
+                        <button name="submit" type="submit" class="send">
+                            <div class="sendtext">SEND</div>
+                        </button>
+                    </form>
                 </section>
             </div>
 
