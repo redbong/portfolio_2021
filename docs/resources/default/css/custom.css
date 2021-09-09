@@ -161,13 +161,14 @@ body.action {
   background-color:#3C3C4B;
   position:absolute;
   left:calc(50% - 5px);
-  bottom:30px;
-  animation: ani-1 1.2s linear infinite;
+  bottom:20px;
+  animation: ani-1 1.4s linear infinite;
+ 
 }
 
 @keyframes ani-1 {
   0% {
-    bottom:90px;
+    bottom:100px;
     opacity:0;
   }
   
@@ -177,7 +178,7 @@ body.action {
   }
   
   100% {
-    bottom:30px;
+    bottom:80px;
     opacity:0;
   }
 }
